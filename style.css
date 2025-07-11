@@ -1,0 +1,468 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.action-container{
+    height: 60vh;
+    margin: 40px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.action-container .action-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+}
+
+.action-container .action-left h1{
+    color: black;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.action-container .action-left p{
+    color: #69696e;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: normal;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.action-container .action-left button{
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.action-container .action-left button:hover{
+    background-color: rgb(42, 239, 42);
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+.action-container .action-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container .action-right img{
+    width: 60%;
+    height: 60%;
+    border-radius: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/hero-bg.png");
+    height: 100vh;
+    padding: 30px 100px;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-header .header-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-header .signup-button{
+    padding: 0px 30px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.banner-header .signup-button:hover{
+    background-color: rgb(70, 236, 70);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    scale: 1.05;
+}
+
+.banner-header .logo{
+    height: 45px;
+}
+
+.banner-container .banner-hero{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner-container .banner-hero h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner-container .banner-hero button{
+    padding: 0px 30px;
+    border-radius: 8px;
+    background-color: #4E47FF;
+    color: white;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+}
+
+.banner-container .banner-hero button:hover{
+    background-color: rgb(70, 236, 70);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    scale: 1.05;
+}
+
+.focus-container{
+    height: 80vh;
+    margin: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.focus-container .focus-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.focus-container .focus-info h1{
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+}
+
+.focus-container .focus-info p{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #69696e;
+    text-align: center;
+}
+
+.focus-container .focus-info button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.focus-container .focus-info button:hover{
+    background-color: rgb(42, 239, 42);
+    font-weight: 600;
+    transition: 0.3s;
+    scale: 1.05;
+}
+
+.focus-container .focus-image img{
+    border-radius: 20px;
+}
+
+.footer-container{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    gap: 10px;
+}
+
+.footer-container .footer-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-container .footer-logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-container .footer-logo p{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .footer-info{
+    text-align: center;
+    font-size: 16px;
+    color: #817b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container .footer-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.footer-container .footer-links ul li{
+    font-size: 16px;
+    color: #817b7b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.footer-container .footer-links ul li:hover{
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+.letter-container{
+    height: 80vh;
+    margin: 40px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.letter-container .letter-left{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.letter-container .letter-left h1{
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+    align-items: center;
+}
+
+.letter-container .letter-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 12px;
+}
+
+.letter-container .letter-form div{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.letter-container .letter-form label{
+    font-weight: bold;
+}
+
+.letter-container .letter-form input{
+    width: 100%;
+    height: 50px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.letter-container .letter-form textarea{
+    width: 100%;
+    height: 120px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.letter-container .letter-form button{
+    width: 100%;
+    padding: 10px 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.letter-container .letter-form button:hover{
+    background-color: rgb(53, 248, 53);
+    transition: background-color 0.3s ease;
+}
+
+.productive-container {
+    height: 30vh;
+    margin: 40px 120px;
+    padding: 20px 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #918df8c4;
+}
+
+.productive-container h1 {
+    color: black;
+    font-size: 1.8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.productive-container .productive-amounts{
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    justify-content: space-evenly;
+}
+
+.productive-container .productive-amounts .productive{
+    display: flex;
+    flex-direction: column;
+}
+
+.productive-container .productive-amounts .productive h1 {
+    color: #4E47FF;
+    height: 4.5rem;
+    font-size: 3.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productive-container .productive-amounts .productive p {
+    color: rgb(93, 91, 91);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin: 40px 120px;
+}
+
+.review-container .all-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review-container .review-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0;
+}
+
+.review-container .review-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 340px;
+}
+.review-container .review-card .review-name h1{
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+}
+
+.review-container .review-card .review-name p{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #69696e;
+    margin-bottom: 10px;
+}
+
+.review-container .review-card .reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review-container .review-card .reviewer img{
+    border-radius: 50%;
+}
+
+.review-container .review-card .reviewer-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.review-container .review-card .reviewer-name h1{
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #29292c;
+}
+
+.review-container .review-card .reviewer-name p{
+    font-size: 0.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #69696e;
+}
